@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@font-face {
+    font-family: EBGaramond-Regular;
+    src: url("./fonts/EBGaramond-Regular.ttf");
+}
+@theme{
+    --color-primary : #3238f2;
+    --font-display : "Poppins", sans-serif;
+    --font-body : "Inter", sans-serif;
+    --font-EBGaramond-Regular : "EBGaramond-Regular", serif;
+}
