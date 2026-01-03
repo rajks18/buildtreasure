@@ -9,3 +9,9 @@
     --font-body : "Inter", sans-serif;
     --font-EBGaramond-Regular : "EBGaramond-Regular", serif;
 }
+
+@layer base{
+    body{
+        @apply font-body;
+    }
+}
