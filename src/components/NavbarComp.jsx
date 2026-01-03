@@ -13,7 +13,7 @@ const NavbarComp = () => {
 	return (
 		<div>
 			<nav className="p-3 flex justify-between items-center bg-white">
-				<a href="#" id="brand" className="flex gap-2 items-center">
+				<a href="#" id="brand" className="flex gap-2 items-center flex-1">
 					<img className="object-cover max-w-12 max-h-12" src={asset0} alt="kk" />
 					<span className="text-lg font-medium font-display">Todesktop</span>
 				</a>
@@ -36,11 +36,14 @@ const NavbarComp = () => {
 					</a>
 				</div>
 
-				<button className="hidden lg:flex gap-2 items-center border border-gray-400 rounded-lg hover:border-gray-600 px-6 py-2">
+				<div className="hidden lg:flex flex-1 justify-end">
+					<button className="flex gap-2 items-center border border-gray-400 rounded-lg hover:border-gray-600 px-6 py-2">
 					<img src={asset1} alt="" />
 					<span>Electron Developers</span>
 					<FontAwesomeIcon icon={faArrowRight} />
 				</button>
+				</div>
+				
 
         <div className="lg:hidden min-[578px]:text-2xl text-cyan-500 font-EBGaramond-Regular rounded-sm shadow-md max-[381px]:p1 min-[382px]:p-3 hover:bg-gray-50 w-fit flex justify-center max-[577px]:text-[12px]">
           Welcome<span className="max-[366px]:hidden">&nbsp;to the house</span>

@@ -16,8 +16,8 @@ const HeroComp = () => {
                         <FontAwesomeIcon icon={faArrowRight} className='text-yellow-600 group-hover:translate-x-1 transition duration-300' />
                     </div>
 
-                    <h1 className='text-4xl font-semibold leading-snug mt-4'>Web app to desktop app in minutes</h1>
-                    <p className='text-xl mt-4'>Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
+                    <h1 className='text-4xl font-semibold leading-snug mt-4 sm:text-7xl sm:leading-normal'>Web app to desktop app in minutes</h1>
+                    <p className='text-xl mt-4 sm:text-2xl sm:mt-8 text-gray-800'>Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
                     <div id="buttons-container" className='mt-12 flex flex-col sm:flex-row gap-4'>
                         <button className='bg-primary text-white font-semibold px-8 py-3 rounded-lg hover:opacity-90 '>Downlaod Now</button>
                         <button className='bg-white font-semibold px-8 py-3 rounded-lg border border-gray-400 hover:border-gray-800'>Read Docs</button>
