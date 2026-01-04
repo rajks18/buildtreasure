@@ -45,9 +45,9 @@ const NavbarComp = () => {
 				</div>
 				
 
-        <div className="lg:hidden min-[578px]:text-2xl text-cyan-500 font-EBGaramond-Regular rounded-sm shadow-md max-[381px]:p1 min-[382px]:p-3 hover:bg-gray-50 w-fit flex justify-center max-[577px]:text-[12px]">
-          Welcome<span className="max-[366px]:hidden">&nbsp;to the house</span>
-        </div>
+				<div className="lg:hidden min-[578px]:text-2xl text-cyan-500 font-EBGaramond-Regular rounded-sm shadow-md max-[381px]:p1 min-[382px]:p-3 hover:bg-gray-50 w-fit flex justify-center max-[577px]:text-[12px]">
+					<p>Welcome <span className="max-[366px]:hidden">to the house</span></p>
+				</div>
 
         {/* max-[423px]:w-3/10 min-[424px]:w-5/10 */}
 
