@@ -14,7 +14,7 @@ const NavbarComp = () => {
 		<div>
 			<nav className="p-3 flex justify-between items-center bg-white">
 				<a href="#" id="brand" className="flex gap-2 items-center flex-1">
-					<img className="object-cover max-w-36 max-h-12" src={asset0} alt="kk" />
+					<img className="object-cover max-w-38 max-h-12" src={asset0} alt="kk" />
 					<span className="text-lg font-medium font-display">Todesktop</span>
 				</a>
 
